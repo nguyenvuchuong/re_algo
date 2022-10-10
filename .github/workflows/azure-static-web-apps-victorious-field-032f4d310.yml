@@ -21,7 +21,7 @@ jobs:
       - name: List current directory
         run: ls
       - name: View WEB_APPS_API_TOKEN
-        run: echo API Token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_VICTORIOUS_FIELD_032F4D310 }}
+        run: echo API Token ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN_VICTORIOUS_FIELD_032F4D310 }}
       - name: Build And Deploy
         id: builddeploy
         uses: Azure/static-web-apps-deploy@v1
